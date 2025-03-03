@@ -1,11 +1,11 @@
 const interopDefault = r => r.default || r || [];
 const styles = {
-  "../node_modules/nuxt/dist/app/components/error-500.vue": () => import('./error-500-styles.D3oecdLG.mjs').then(interopDefault),
   "../node_modules/nuxt/dist/app/components/error-404.vue": () => import('./error-404-styles.BGa7TbTg.mjs').then(interopDefault),
+  "../node_modules/nuxt/dist/app/components/error-500.vue": () => import('./error-500-styles.D3oecdLG.mjs').then(interopDefault),
+  "components/ImageGallery.vue": () => import('./ImageGallery-styles.3pIEz1h4.mjs').then(interopDefault),
   "../node_modules/nuxt/dist/app/components/error-404.vue?vue&type=style&index=0&scoped=460438a1&lang.css": () => import('./error-404-styles.CYEBEQpn.mjs').then(interopDefault),
   "../node_modules/nuxt/dist/app/components/error-500.vue?vue&type=style&index=0&scoped=9ae14d19&lang.css": () => import('./error-500-styles.BzGar0FR.mjs').then(interopDefault),
-  "components/ImageGallery.vue": () => import('./ImageGallery-styles.DBkzsvs2.mjs').then(interopDefault),
-  "components/ImageGallery.vue?vue&type=style&index=0&scoped=7a87e909&lang.postcss": () => import('./ImageGallery-styles.DBh59tZZ.mjs').then(interopDefault)
+  "components/ImageGallery.vue?vue&type=style&index=0&scoped=dc716d02&lang.postcss": () => import('./ImageGallery-styles.CCrts4Ex.mjs').then(interopDefault)
 };
 
 export { styles as default };
