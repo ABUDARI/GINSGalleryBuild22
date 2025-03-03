@@ -631,7 +631,7 @@ const _routes = [
   {
     name: "index",
     path: "/",
-    component: () => import('./index-YYbFkolH.mjs')
+    component: () => import('./index-D4iWuuEh.mjs')
   }
 ];
 const ROUTE_KEY_PARENTHESES_RE = /(:\w+)\([^)]+\)/g;
@@ -3956,6 +3956,7 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
       const _component_NuxtPage = __nuxt_component_1;
       const _component_ImageThumbnailList = __nuxt_component_2;
       _push(`<div${ssrRenderAttrs(mergeProps({
+        id: "scrollll",
         class: ["min-h-[100dvh] overflow-x-auto relative", { "flex flex-col md:block": _ctx.$router.currentRoute.value.fullPath !== "/" }]
       }, _attrs))}>`);
       _push(ssrRenderComponent(_component_UNotifications, null, null, _parent));
