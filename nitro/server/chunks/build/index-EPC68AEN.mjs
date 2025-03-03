@@ -1790,7 +1790,7 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
     let __temp, __restore;
     const Data = ([__temp, __restore] = withAsyncContext(() => {
       var _a;
-      return $fetch("https://files.ginistorage.com/GINSEvent2025/Categorized/GINS2025.json" + ((_a = (/* @__PURE__ */ new Date()).getTime()) == null ? void 0 : _a.toString()));
+      return $fetch("https://files.ginistorage.com/GINSEvent2025/Categorized/GINS2025.json?date=" + ((_a = (/* @__PURE__ */ new Date()).getTime()) == null ? void 0 : _a.toString()));
     }), __temp = await __temp, __restore(), __temp);
     const scrollnow = function() {
       var _a;
@@ -1818,9 +1818,9 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
       const _component_BottomMenu = __nuxt_component_2;
       const _component_Upagination = resolveComponent("Upagination");
       const _component_USkeleton = __nuxt_component_3;
-      _push(`<div${ssrRenderAttrs(_attrs)} data-v-730de60e>`);
+      _push(`<div${ssrRenderAttrs(_attrs)} data-v-974fdbf7>`);
       if (unref(images)) {
-        _push(`<section class="relative h-screen gap-[22px] p-4" data-v-730de60e>`);
+        _push(`<section class="relative h-screen gap-[22px] p-4" data-v-974fdbf7>`);
         _push(ssrRenderComponent(_component_UModal, {
           modelValue: unref(isOpen),
           "onUpdate:modelValue": ($event) => isRef(isOpen) ? isOpen.value = $event : null,
@@ -1847,9 +1847,9 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
         _push(ssrRenderComponent(_component_BottomMenu, { class: "bottom-menu" }, {
           buttons: withCtx((_, _push2, _parent2, _scopeId) => {
             if (_push2) {
-              _push2(`<div style="${ssrRenderStyle({ "overflow-x": "auto", "display": "flex", "gap": "0.5em", "margin-left": "-1em", "padding": "0.5em" })}" data-v-730de60e${_scopeId}><!--[-->`);
+              _push2(`<div style="${ssrRenderStyle({ "overflow-x": "auto", "display": "flex", "gap": "0.5em", "margin-left": "-1em", "padding": "0.5em" })}" data-v-974fdbf7${_scopeId}><!--[-->`);
               ssrRenderList(unref(TotalPages), (page) => {
-                _push2(`<div class="scrolledit" style="${ssrRenderStyle([{ "min-width": "1.5em", "min-height": "1.5em", "border-radius": "2em", "display": "flex", "justify-content": "center", "align-items": "center", "cursor": "pointer" }, unref(currentpage) === page ? "background: rgb(32, 85, 157); color: white;" : "background: #676767;"])}" data-v-730de60e${_scopeId}>${ssrInterpolate(page)}</div>`);
+                _push2(`<div class="scrolledit" style="${ssrRenderStyle([{ "min-width": "1.5em", "min-height": "1.5em", "border-radius": "2em", "display": "flex", "justify-content": "center", "align-items": "center", "cursor": "pointer" }, unref(currentpage) === page ? "background: rgb(32, 85, 157); color: white;" : "background: #676767;"])}" data-v-974fdbf7${_scopeId}>${ssrInterpolate(page)}</div>`);
               });
               _push2(`<!--]--></div>`);
               _push2(ssrRenderComponent(_component_Upagination, null, null, _parent2, _scopeId));
@@ -1871,17 +1871,17 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
           }),
           _: 1
         }, _parent));
-        _push(`<div class="${ssrRenderClass([{ "masonry-container": unref(images) && unref(images).length }, "w-full"])}" data-v-730de60e><div style="${ssrRenderStyle({ "text-align": "center" })}" class="text-2xl text-white flex flex-col gap-y-4 items-center justify-center h-full w-full pb-8" data-v-730de60e><img src="https://cdn.prod.website-files.com/65accf2880bb60bad2f20e2b/678cd73f3966a860608350e7_810.256-01-p-1080.png" style="${ssrRenderStyle({ "width": "15em" })}" data-v-730de60e><h1 style="${ssrRenderStyle({ "color": "#454545" })}" class="font-regular text-5xl" data-v-730de60e><div data-v-730de60e>Photo Gallery</div></h1><div style="${ssrRenderStyle({ "display": "flex", "flex-wrap": "wrap", "gap": "0.5em", "justify-content": "center", "align-items": "center" })}" data-v-730de60e><!--[-->`);
+        _push(`<div class="${ssrRenderClass([{ "masonry-container": unref(images) && unref(images).length }, "w-full"])}" data-v-974fdbf7><div style="${ssrRenderStyle({ "text-align": "center" })}" class="text-2xl text-white flex flex-col gap-y-4 items-center justify-center h-full w-full pb-8" data-v-974fdbf7><img src="https://cdn.prod.website-files.com/65accf2880bb60bad2f20e2b/678cd73f3966a860608350e7_810.256-01-p-1080.png" style="${ssrRenderStyle({ "width": "15em" })}" data-v-974fdbf7><h1 style="${ssrRenderStyle({ "color": "#454545" })}" class="font-regular text-5xl" data-v-974fdbf7><div data-v-974fdbf7>Photo Gallery</div></h1><div style="${ssrRenderStyle({ "display": "flex", "flex-wrap": "wrap", "gap": "0.5em", "justify-content": "center", "align-items": "center" })}" data-v-974fdbf7><!--[-->`);
         ssrRenderList((_a = unref(Data)) == null ? void 0 : _a.Categories, (category) => {
-          _push(`<span style="${ssrRenderStyle([{ "transition": "all 0.5s ease", "font-size": "0.5em", "color": "#454545", "background": "#ededed", "padding": "0 1em", "border-radius": "5em", "white-space": "nowrap", "cursor": "pointer" }, unref(CurrentCategory) === category ? "color: white; background: rgb(48,144,200);" : ""])}" data-v-730de60e>${ssrInterpolate(category)}</span>`);
+          _push(`<span style="${ssrRenderStyle([{ "transition": "all 0.5s ease", "font-size": "0.5em", "color": "#454545", "background": "#ededed", "padding": "0 1em", "border-radius": "5em", "white-space": "nowrap", "cursor": "pointer" }, unref(CurrentCategory) === category ? "color: white; background: rgb(48,144,200);" : ""])}" data-v-974fdbf7>${ssrInterpolate(category)}</span>`);
         });
         _push(`<!--]--></div></div>`);
         if (unref(images) && unref(images).length) {
-          _push(`<ul class="grid grid-cols-1 gap-4 lg:block" data-v-730de60e><!--[-->`);
+          _push(`<ul class="grid grid-cols-1 gap-4 lg:block" data-v-974fdbf7><!--[-->`);
           ssrRenderList(unref(CurrentPhotos), (image) => {
-            _push(`<li class="relative w-full group masonry-item" data-v-730de60e><div data-v-730de60e>`);
+            _push(`<li class="relative w-full group masonry-item" data-v-974fdbf7><div data-v-974fdbf7>`);
             if (image) {
-              _push(`<img width="527" height="430"${ssrRenderAttr("src", `${image.pathname}`)} class="${ssrRenderClass([{ imageEl: image.pathname.split(".")[0] === unref(active) }, "h-auto w-full max-h-[430px] rounded-md transition-all duration-200 border-image brightness-[.8] hover:brightness-[1.1] will-change-[filter] object-cover cursor-pointer"])}" data-v-730de60e>`);
+              _push(`<img width="527" height="430"${ssrRenderAttr("src", `${image.pathname}`)} class="${ssrRenderClass([{ imageEl: image.pathname.split(".")[0] === unref(active) }, "h-auto w-full max-h-[430px] rounded-md transition-all duration-200 border-image brightness-[.8] hover:brightness-[1.1] will-change-[filter] object-cover cursor-pointer"])}" data-v-974fdbf7>`);
             } else {
               _push(`<!---->`);
             }
@@ -1893,12 +1893,12 @@ const _sfc_main$1 = /* @__PURE__ */ defineComponent({
         }
         _push(`</div></section>`);
       } else {
-        _push(`<div class="flex items-center space-x-4 z-10" data-v-730de60e>`);
+        _push(`<div class="flex items-center space-x-4 z-10" data-v-974fdbf7>`);
         _push(ssrRenderComponent(_component_USkeleton, {
           class: "h-12 w-12 bg-primary-500",
           ui: { rounded: "rounded-full" }
         }, null, _parent));
-        _push(`<div class="space-y-2" data-v-730de60e>`);
+        _push(`<div class="space-y-2" data-v-974fdbf7>`);
         _push(ssrRenderComponent(_component_USkeleton, { class: "h-4 w-[250px] bg-primary-500" }, null, _parent));
         _push(ssrRenderComponent(_component_USkeleton, { class: "h-4 w-[200px] bg-primary-500" }, null, _parent));
         _push(`</div></div>`);
@@ -1913,7 +1913,7 @@ _sfc_main$1.setup = (props, ctx) => {
   (ssrContext.modules || (ssrContext.modules = /* @__PURE__ */ new Set())).add("components/ImageGallery.vue");
   return _sfc_setup$1 ? _sfc_setup$1(props, ctx) : void 0;
 };
-const __nuxt_component_0 = /* @__PURE__ */ Object.assign(_export_sfc(_sfc_main$1, [["__scopeId", "data-v-730de60e"]]), { __name: "ImageGallery" });
+const __nuxt_component_0 = /* @__PURE__ */ Object.assign(_export_sfc(_sfc_main$1, [["__scopeId", "data-v-974fdbf7"]]), { __name: "ImageGallery" });
 const _sfc_main = {};
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
   const _component_ImageGallery = __nuxt_component_0;
@@ -1930,4 +1930,4 @@ _sfc_main.setup = (props, ctx) => {
 const index = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
 
 export { index as default };
-//# sourceMappingURL=index-LE1uOO3k.mjs.map
+//# sourceMappingURL=index-EPC68AEN.mjs.map

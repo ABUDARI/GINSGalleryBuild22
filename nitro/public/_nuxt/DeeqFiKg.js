@@ -1,1 +1,0 @@
-import{_ as e,c as _,o as n,b as a}from"./BAH8aSne.js";const r={};function s(c,t){return n(),_("div")}const i=Object.assign(e(r,[["render",s]]),{__name:"ImageDetail"}),m={};function f(c,t){const o=i;return n(),_("div",null,[a(o)])}const d=e(m,[["render",f]]);export{d as default};
