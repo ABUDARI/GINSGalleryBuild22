@@ -4,7 +4,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "DozFJC-C.js",
+    "file": "VIpeboJ3.js",
     "name": "error-404",
     "src": "../node_modules/nuxt/dist/app/components/error-404.vue",
     "isDynamicEntry": true,
@@ -24,7 +24,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "B_azFU4C.js",
+    "file": "CWFSDGgU.js",
     "name": "error-500",
     "src": "../node_modules/nuxt/dist/app/components/error-500.vue",
     "isDynamicEntry": true,
@@ -44,7 +44,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "CkFfg43c.js",
+    "file": "DRatbQP9.js",
     "name": "entry",
     "src": "../node_modules/nuxt/dist/app/entry.js",
     "isEntry": true,
@@ -53,12 +53,12 @@ const client_manifest = {
       "../node_modules/nuxt/dist/app/components/error-500.vue"
     ],
     "css": [
-      "entry.YQwBT_5T.css"
+      "entry.WhgS1cq4.css"
     ],
     "assets": []
   },
-  "entry.YQwBT_5T.css": {
-    "file": "entry.YQwBT_5T.css",
+  "entry.WhgS1cq4.css": {
+    "file": "entry.WhgS1cq4.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true
@@ -68,7 +68,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "BdCnG1-o.js",
+    "file": "CQUHopTZ.js",
     "name": "_...slug_",
     "src": "pages/detail/[...slug].vue",
     "isDynamicEntry": true,
@@ -81,7 +81,7 @@ const client_manifest = {
     "module": true,
     "prefetch": true,
     "preload": true,
-    "file": "B6TvGDDm.js",
+    "file": "BGAHf5Bx.js",
     "name": "index",
     "src": "pages/index.vue",
     "isDynamicEntry": true,
@@ -89,11 +89,11 @@ const client_manifest = {
       "../node_modules/nuxt/dist/app/entry.js"
     ],
     "css": [
-      "index.BVNjnHji.css"
+      "index.JLx-ULub.css"
     ]
   },
-  "index.BVNjnHji.css": {
-    "file": "index.BVNjnHji.css",
+  "index.JLx-ULub.css": {
+    "file": "index.JLx-ULub.css",
     "resourceType": "style",
     "prefetch": true,
     "preload": true

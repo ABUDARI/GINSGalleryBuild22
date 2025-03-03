@@ -626,12 +626,12 @@ const _routes = [
   {
     name: "detail-slug",
     path: "/detail/:slug(.*)*",
-    component: () => import('./_...slug_-B31aMRUr.mjs')
+    component: () => import('./_...slug_-CRs6SBkz.mjs')
   },
   {
     name: "index",
     path: "/",
-    component: () => import('./index-Cn9nmhwh.mjs')
+    component: () => import('./index-YYbFkolH.mjs')
   }
 ];
 const ROUTE_KEY_PARENTHESES_RE = /(:\w+)\([^)]+\)/g;
@@ -3926,7 +3926,7 @@ function hasChildrenRoutes(fork, newRoute, Component) {
 }
 const _sfc_main$3 = {};
 function _sfc_ssrRender(_ctx, _push, _parent, _attrs) {
-  _push(` scsc `);
+  _push(`<div${ssrRenderAttrs(_attrs)}></div>`);
 }
 const _sfc_setup$3 = _sfc_main$3.setup;
 _sfc_main$3.setup = (props, ctx) => {

@@ -1,6 +1,6 @@
+import { ssrRenderAttrs, ssrRenderComponent } from 'vue/server-renderer';
 import { useSSRContext } from 'vue';
 import { _ as _export_sfc } from './server.mjs';
-import { ssrRenderAttrs, ssrRenderComponent } from 'vue/server-renderer';
 import '../_/nitro.mjs';
 import 'node:crypto';
 import 'node:http';
@@ -19,7 +19,7 @@ import '@iconify/utils/lib/css/icon';
 
 const _sfc_main$1 = {};
 function _sfc_ssrRender$1(_ctx, _push, _parent, _attrs) {
-  _push(` scsc `);
+  _push(`<div${ssrRenderAttrs(_attrs)}></div>`);
 }
 const _sfc_setup$1 = _sfc_main$1.setup;
 _sfc_main$1.setup = (props, ctx) => {
@@ -44,4 +44,4 @@ _sfc_main.setup = (props, ctx) => {
 const ____slug_ = /* @__PURE__ */ _export_sfc(_sfc_main, [["ssrRender", _sfc_ssrRender]]);
 
 export { ____slug_ as default };
-//# sourceMappingURL=_...slug_-B31aMRUr.mjs.map
+//# sourceMappingURL=_...slug_-CRs6SBkz.mjs.map
