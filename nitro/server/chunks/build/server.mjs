@@ -3959,7 +3959,10 @@ const _sfc_main$2 = /* @__PURE__ */ defineComponent({
         class: ["min-h-[100dvh] overflow-x-auto relative", { "flex flex-col md:block": _ctx.$router.currentRoute.value.fullPath !== "/" }]
       }, _attrs))}>`);
       _push(ssrRenderComponent(_component_UNotifications, null, null, _parent));
-      _push(ssrRenderComponent(_component_NuxtPage, { class: unref(theme) }, null, _parent));
+      _push(ssrRenderComponent(_component_NuxtPage, {
+        class: unref(theme),
+        style: { "background-color": "#fff" }
+      }, null, _parent));
       _push(ssrRenderComponent(_component_ImageThumbnailList, {
         class: _ctx.$router.currentRoute.value.fullPath !== "/" ? "opacity-100 z-[9999]" : "opacity-0 z-[-1]"
       }, null, _parent));
